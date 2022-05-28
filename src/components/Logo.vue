@@ -1,0 +1,9 @@
+<template>
+  <img
+    alt="mfarhan"
+    src=".././assets/images/logo.jpg"
+    height="160"
+    width="160"
+    class="rounded-full"
+  />
+</template>

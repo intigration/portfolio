@@ -1,0 +1,35 @@
+@import "./markdown.css";
+
+* {
+  @apply outline-none;
+}
+
+body {
+  @apply select-none;
+}
+
+#nprogress {
+  @apply pointer-events-none;
+}
+
+#nprogress .bar {
+  @apply bg-teal-600;
+  @apply opacity-75;
+  @apply fixed;
+  @apply z-1;
+  @apply top-0;
+  @apply left-0;
+  @apply w-full;
+  @apply h-0.5;
+}
+
+.router-link-exact-active {
+  @apply bg-blue-100;
+  @apply dark: (bg-gray-800);
+}
+
+button {
+  @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
+}

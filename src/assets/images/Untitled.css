@@ -1,0 +1,6 @@
+#container li {
+background-image: url("Untitled.png");
+    background-repeat: no-repeat;   
+    list-style: none outside none;
+}	
+.sprite-Text-Edit{background-position: 0px 0px; width: 128px; height: 128px; }

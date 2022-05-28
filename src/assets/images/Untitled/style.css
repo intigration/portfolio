@@ -1,0 +1,41 @@
+@font-face {
+font-family: 'Untitled';
+src:
+url('Fonts/Untitled.ttf') format('truetype'),
+url('Fonts/Untitled.woff') format('woff'),
+url('Fonts/Untitled.eot') format('eot'),
+url('Fonts/Untitled.svg?#Untitled') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+[class^="sf-icon-"], [class*=" sf-icon-"] {
+ font-family: 'Untitled' !important;
+speak: none;
+font-size: 55px;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.sf-icon-bone-wf:before { content: "\e700"; }
+.sf-icon-rocket-01-wf:before { content: "\e701"; }
+.sf-icon-erlenmeyer-flask-wf:before { content: "\e702"; }
+.sf-icon-tools-01:before { content: "\e703"; }
+.sf-icon-handle-with-care-wf:before { content: "\e704"; }
+.sf-icon-bar-charts-wf:before { content: "\e705"; }
+.sf-icon-cube:before { content: "\e706"; }
+.sf-icon-menu-interface-04-wf:before { content: "\e707"; }
+.sf-icon-re-size-04-wf:before { content: "\e708"; }
+.sf-icon-view-03-wf:before { content: "\e709"; }
+.sf-icon-cpu-01:before { content: "\e70a"; }
+.sf-icon-cube-shield:before { content: "\e70b"; }
+.sf-icon-lan-wf:before { content: "\e70c"; }
+.sf-icon-shield---01:before { content: "\e70d"; }
+.sf-icon-user-profile-1-wf:before { content: "\e70e"; }
+.sf-icon-contact:before { content: "\e70f"; }
+.sf-icon-contact-wf:before { content: "\e710"; }

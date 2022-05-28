@@ -1,0 +1,24 @@
+button:
+  about: Console
+  events: Events
+  works: Projects
+  technique: Expertise
+  tracker: Covid Tracker
+  projects: Projects
+  blog: Functions
+  articles: Articles
+  timeline: Timeline
+  newsletter: Trending
+  tweets: Tweets
+
+  back: Back
+  go: GO
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+intro:
+  desc: muhammad.farhan
+  dynamic-route: hello
+  hi: Hi, {name}! Happy to see you
+  whats-your-name: Muhammad Farhan
+not-found: Not found
