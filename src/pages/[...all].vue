@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ t("not-found") }}
+    Not Found
   </div>
 </template>
 
@@ -10,11 +10,9 @@ meta:
 </route>
 
 <script setup lang="ts">
-import { useI18n } from "vue-i18n"
 import { useHead } from "@vueuse/head"
 
 useHead({
-  title: "404 - Liyas Thomas",
+  title: "404 - Not Found",
 })
-const { t } = useI18n()
 </script>

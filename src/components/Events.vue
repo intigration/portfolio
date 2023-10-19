@@ -1,44 +1,58 @@
 <template>
-<div class="relative flex flex-col">
+<div>
+    <h1 class="inline-flex mb-8 text-2xl font-bold">Events</h1>
+    <div class="relative flex flex-col">
+      <div
+        class="absolute border-r-2 border-gray-200 bottom-1 top-1 dark:border-gray-800"
+        style="z-index: -1; left: 15px"
+      ></div>
+      <ul class="flex flex-col justify-end space-y-10 md:space-y-8">
+        <li
+          v-for="(event, index) in timeline.slice(
+            0,
+            props.home ? props.eventCount : eventCount
+          )"
+          :key="`event-${index}`"
+          class="event-item"
+        >
+          <div class="event-heading">
+            <div class="event-indicator"></div>
+            <component
+              :is="event.link ? 'a' : 'div'"
+              :href="event.link"
+              target="_blank"
+              rel="noopener"
+              class="event-headline"
+              :class="{ 'event-link': event.link }"
+            >
+              <span class="event-date">{{
+                new Intl.DateTimeFormat("en-US", {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                }).format(new Date(event.date))
+              }}</span>
+              <span class="event-divider">—</span>
+              <span class="event-title">{{ event.title }}</span>
+            </component>
+          </div>
+          <div v-if="event.description" class="event-description">
+            {{ event.description }}
+          </div>
+        </li>
+      </ul>
+    </div>
     <div
-      class="absolute border-r-2 border-gray-200 bottom-1 top-1 dark:border-gray-800"
-      style="z-index: -1; left: 15px"
-    ></div>
-    <ul class="flex flex-col justify-end space-y-10 md:space-y-8">
-      <li
-        v-for="(event, index) in timeline.slice(0, eventCount)"
-        :key="`event-${index}`"
-        class="event-item"
-      >
-        <div class="event-heading">
-          <div class="event-indicator"></div>
-          <component
-            :is="event.link ? 'a' : 'div'"
-            :href="event.link"
-            target="_blank"
-            rel="noopener"
-            class="event-headline"
-            :class="{ 'event-link': event.link }"
-          >
-            <span class="event-date">{{
-              new Intl.DateTimeFormat("en-US", {
-                year: "numeric",
-                month: "short",
-                day: "numeric",
-              }).format(new Date(event.date))
-            }}</span>
-            <span class="event-divider">—</span>
-            <span class="event-title">{{ event.title }}</span>
-          </component>
-        </div>
-        <div v-if="event.description" class="event-description">
-          {{ event.description }}
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div v-if="eventCount < timeline.length" class="more-container">
-    <button class="more-event" @click="eventCount += 5">Show more</button>
+      v-if="props.home ? props.eventCount : eventCount < timeline.length"
+      class="more-container"
+    >
+      <RouterLink v-if="props.home" to="/timeline" class="more-event">
+        View all
+      </RouterLink>
+      <button v-else class="more-event" @click="eventCount += 5">
+        Show more
+      </button>
+    </div>
   </div>
 
   <!-- <iframe src="http://localhost:9090" width="100%" height="900px"></iframe> -->
@@ -123,4 +137,15 @@ import timeline from "../assets/data/timeline"
 import { ref } from "vue"
 
 const eventCount = ref(5)
+
+const props = defineProps({
+  eventCount: {
+    type: Number,
+    default: 3,
+  },
+  home: {
+    type: Boolean,
+    default: false,
+  },
+})
 </script>

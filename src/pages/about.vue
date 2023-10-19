@@ -1,5 +1,5 @@
 <template>
-  <h1 class="inline-flex mb-8 text-2xl font-bold">{{ t("button.about") }}</h1>
+  <h1 class="inline-flex mb-8 text-2xl font-bold">About</h1>
   <form name="contact" data-netlify="true">
     <div class="flex flex-col space-y-2 max-w-sm">
       <input
@@ -64,8 +64,6 @@
 </style>
 
 <script setup lang="ts">
-import { useI18n } from "vue-i18n"
-const { t } = useI18n()
 import { useHead } from "@vueuse/head"
 import { ref } from "vue"
 

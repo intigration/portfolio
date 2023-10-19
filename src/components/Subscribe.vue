@@ -1,21 +1,21 @@
 <template>
   <div class="flex flex-col">
     <form
-      action="https://host.m3-solutions.io"
+      action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f"
       method="post"
       target="_blank"
       validate
     >
       <label for="mce-EMAIL" class="inline-flex mb-8 text-2xl font-bold"
-        > Technology Trending is a publishing service that consolidates all of the social feeds into one channel or blog!</label
+        >Subscribe</label
       >
-      <div   class="flex flex-col space-y-2 md:(space-x-2 space-y-0 flex-row)">
+      <div class="flex flex-col space-y-2 md:(space-x-2 space-y-0 flex-row)">
         <input
-          name="EMAIL"
           id="mce-EMAIL"
+          name="EMAIL"
           class="form-input"
           type="email"
-          placeholder="Stay informed?"
+          placeholder="E-mail"
           required
         />
         <input
@@ -27,8 +27,6 @@
         />
       </div>
     </form>
-    <h1 class="inline-flex my-8 text-2xl font-bold"></h1>
-    <Tweets />
   </div>
 </template>
 
@@ -46,6 +44,7 @@
   @apply dark:(text-gray-50 bg-gray-800 focus:bg-gray-700 focus-within:ring-indigo-600 hover:bg-gray-700);
   @apply transition-all;
 }
+
 .form-button {
   @apply px-5;
   @apply py-3;

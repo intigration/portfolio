@@ -17,6 +17,35 @@ export default [
     },
     {
         date: "15 April 2022",
+        title: "R IDE",
+        description: "R Tooling",
+        slug: "r-ide",
+        category: "/languages/r/"
+
+    },
+    {
+        date: "15 April 2022",
+        title: "C/C++ autotools",
+        description: "C/C++ autotools",
+        slug: "r-installation",
+        category: "/languages/r/"
+
+    }, {
+        date: "15 April 2022",
+        title: "C/C++ autotools",
+        description: "C/C++ autotools",
+        slug: "autotools",
+        category: "/languages/c/"
+
+    }, {
+        date: "15 April 2022",
+        title: "C/C++ autotools",
+        description: "C/C++ autotools",
+        slug: "autotools",
+        category: "/languages/c/"
+
+    }, {
+        date: "15 April 2022",
         title: "C/C++ autotools",
         description: "C/C++ autotools",
         slug: "autotools",
