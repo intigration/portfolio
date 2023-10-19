@@ -64,7 +64,7 @@ $ mu
 
 *Mu* looks like this:
 
-<img src="/content/tech/languages/python/micropython-mu.png" width="97%">
+<img src="./micropython-mu.png" width="97%">
 
 ## uFlash - CLI for flashing the micro:bit
 
