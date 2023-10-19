@@ -13,7 +13,7 @@
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["vite/client", "vite-plugin-vue-layouts/client", "@nuxt/types",
+    "types": ["vite-plugin-pwa/client","vite/client", "vite-plugin-vue-layouts/client", "@nuxt/types",
       "@nuxt/content"],
     "paths": {
       "~/*": ["src/*"]

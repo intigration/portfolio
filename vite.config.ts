@@ -67,6 +67,15 @@ export default defineConfig({
 
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}']
+      },
+      devOptions: {
+        enabled: true
+      },
+      injectManifest: {
+        rollupFormat: 'iife'
+      },
       registerType: "autoUpdate",
       manifest: {
         short_name: "Farhan",
