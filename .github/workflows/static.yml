@@ -2,10 +2,7 @@
 #
 # To get started with Nuxt see: https://nuxtjs.org/docs/get-started/installation
 #
-
 name: Deploy Nuxt site to Pages
-            
-          
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -25,14 +22,11 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-  
 
 jobs:
   # Build job
   build:
-    runs-on: self-hosted
     steps:
-    
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node
@@ -58,18 +52,13 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} npm install
+        run: ${{ steps.detect-package-manager.outputs.manager }} yarn install
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} npm run build
+        run: ${{ steps.detect-package-manager.outputs.manager }} yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
-      - name: Cache
-        uses: actions/cache@v4.0.0
-        with: 
-          path: ./cache
-
 
   # Deployment job
   deploy:
