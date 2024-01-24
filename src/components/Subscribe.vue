@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <form
-      action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f"
+      action="https://us17.list-manage.com/contact-form?u=4f92f5af9337418dd179119bd&form_id=03fabea9030804e68b15eb3fda2a8238"
       method="post"
       target="_blank"
       validate
