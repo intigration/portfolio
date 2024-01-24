@@ -1,9 +1,8 @@
 import NProgress from "nprogress";
 import { ViteSSG } from "vite-ssg";
-import { useSSRContext, mergeProps, defineComponent, ref, resolveComponent, unref, createVNode, resolveDynamicComponent, withCtx, toDisplayString, createTextVNode, openBlock, createElementBlock, createElementVNode, createBlock, createCommentVNode } from "vue";
-import { ssrRenderAttrs, ssrRenderComponent, ssrRenderStyle, ssrRenderList, ssrRenderVNode, ssrInterpolate, ssrRenderAttr } from "vue/server-renderer";
+import { defineComponent, ref, resolveComponent, unref, createVNode, resolveDynamicComponent, withCtx, toDisplayString, createTextVNode, useSSRContext, mergeProps, openBlock, createElementBlock, createElementVNode, createBlock, createCommentVNode } from "vue";
+import { ssrRenderAttrs, ssrRenderStyle, ssrRenderList, ssrRenderVNode, ssrInterpolate, ssrRenderComponent, ssrRenderAttr } from "vue/server-renderer";
 import { useHead } from "@vueuse/head";
-import { useDark, useToggle } from "@vueuse/core";
 import { useRouter } from "vue-router";
 import "https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js";
 import "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js";
@@ -35,60 +34,6 @@ var __glob_7_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProp
   __proto__: null,
   install
 }, Symbol.toStringTag, { value: "Module" }));
-var _imports_0 = "/assets/logo.78fee544.jpg";
-var _export_sfc = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-};
-const _sfc_main$y = {};
-function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
-  _push(`<img${ssrRenderAttrs(mergeProps({
-    alt: "mfarhan",
-    src: _imports_0,
-    height: "160",
-    width: "160",
-    class: "rounded-full"
-  }, _attrs))}>`);
-}
-const _sfc_setup$y = _sfc_main$y.setup;
-_sfc_main$y.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/AppLogo.vue");
-  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
-};
-var __vite_components_0$9 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["ssrRender", _sfc_ssrRender$7]]);
-;
-var Profileintroduction_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$x = {};
-function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col my-8" }, _attrs))} data-v-5943a3e4><h1 class="text-4xl font-bold" data-v-5943a3e4>Muhammad Farhan</h1><p class="mt-4 text-xl" data-v-5943a3e4> AI plateform based hybrid onprem-cloud IIOT solutions for Smart factories that enable autonmous control management for manufacturing workflows . that deploy in incorporating BI, Machine Learning, Vision, Acoustic, Statistical Methods, and Optimization. <p class="mt-4 text-xl" data-v-5943a3e4>\u2714\uFE0F MOM (Manufacturing Operations Management)</p><br data-v-5943a3e4><p class="mt-4 text-xl" data-v-5943a3e4>\u2714\uFE0F Asset &amp; Process Performance Management</p><br data-v-5943a3e4><p class="mt-4 text-xl" data-v-5943a3e4>\u2714\uFE0F Anamoly Detection</p><br data-v-5943a3e4><p class="mt-4 text-xl" data-v-5943a3e4>\u2714\uFE0FAs a developer, I&#39;ve worked on variety of domains ranging from scripting to web development to API development to ORM development to video encoder wrappers to automated scrapping to crawlers like Dropbox / MEGA sync to AI bots development with AIML. Great expertise on Python with good fluency in Node.js / JavaScript and also familiar with C,C++ and JAVA. I&#39;ve worked on different projects around website development that incorporate SQL / NoSQL as database, Python / Node.js as backends and JavaScript-heavy frontends.</p><p class="mt-4 text-xl" data-v-5943a3e4>\u2714\uFE0F As a DevSecOps &amp; Cloud Engineer, I&#39;m a Google certified Associate Cloud Engineer (ACE) and an AWS certified Solutions Architect Associate (CSAA). I&#39;ve had the experience to work both with VM-based deployments and containerized ones. I work regularly on Docker based orchestrations, sometimes sole containers but mostly on Docker Compose. Mainly, an avid user of K8 (Kubernetes) and have managed clusters on GCP, AWS and bare metal servers. I&#39;ve worked on various projects like Cloud Infra and Application Management, Cloud Migration, CI/CD on Cloud and Disaster Recovery implementations.</p><p class="mt-4 text-xl" data-v-5943a3e4>\u2714\uFE0F A little on research, I&#39;ve had the chance to work on a project that&#39;d predict crashes on any SDN (Software Defined Network) using Information Theory, Machine Learning and Natural Language Processing. Also, researched about AI bots and their integration with different platforms like Facebook, Whatsapp and Skype using AIML. Further in individual research areas, I have been working in the field of audio/video encoding and its automation for different containers like Matroska.</p><span data-v-5943a3e4><a class="app-link" href="https://dev.m3-solutions.io" target="_blank" rel="noopener" data-v-5943a3e4>Leading towards Industry 4.0</a></span></p></div>`);
-}
-const _sfc_setup$x = _sfc_main$x.setup;
-_sfc_main$x.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Profileintroduction.vue");
-  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
-};
-var __vite_components_1$3 = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["ssrRender", _sfc_ssrRender$6], ["__scopeId", "data-v-5943a3e4"]]);
-const _sfc_main$w = {};
-function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
-  const _component_AppLogo = __vite_components_0$9;
-  const _component_Profileintroduction = __vite_components_1$3;
-  _push(`<div${ssrRenderAttrs(_attrs)}>`);
-  _push(ssrRenderComponent(_component_AppLogo, null, null, _parent));
-  _push(ssrRenderComponent(_component_Profileintroduction, null, null, _parent));
-  _push(`</div>`);
-}
-const _sfc_setup$w = _sfc_main$w.setup;
-_sfc_main$w.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/AppHome.vue");
-  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
-};
-var __vite_components_0$8 = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["ssrRender", _sfc_ssrRender$5]]);
 var timeline$1 = [
   {
     "date": "10 March 2015",
@@ -248,7 +193,14 @@ var timeline$1 = [
 ];
 ;
 var Events_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$v = defineComponent({
+var _export_sfc = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+};
+const _sfc_main$o = defineComponent({
   __name: "Events",
   __ssrInlineRender: true,
   props: {
@@ -266,12 +218,12 @@ const _sfc_main$v = defineComponent({
     const eventCount = ref(5);
     return (_ctx, _push, _parent, _attrs) => {
       const _component_RouterLink = resolveComponent("RouterLink");
-      _push(`<div${ssrRenderAttrs(_attrs)} data-v-40154f03><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-40154f03>Events</h1><div class="relative flex flex-col" data-v-40154f03><div class="absolute border-r-2 border-gray-200 bottom-1 top-1 dark:border-gray-800" style="${ssrRenderStyle({ "z-index": "-1", "left": "15px" })}" data-v-40154f03></div><ul class="flex flex-col justify-end space-y-10 md:space-y-8" data-v-40154f03><!--[-->`);
+      _push(`<div${ssrRenderAttrs(_attrs)} data-v-2c21b316><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-2c21b316>Events</h1><div class="relative flex flex-col" data-v-2c21b316><div class="absolute border-r-2 border-gray-200 bottom-1 top-1 dark:border-gray-800" style="${ssrRenderStyle({ "z-index": "-1", "left": "15px" })}" data-v-2c21b316></div><ul class="flex flex-col justify-end space-y-10 md:space-y-8" data-v-2c21b316><!--[-->`);
       ssrRenderList(unref(timeline$1).slice(
         0,
         props.home ? props.eventCount : eventCount.value
       ), (event, index2) => {
-        _push(`<li class="event-item" data-v-40154f03><div class="event-heading" data-v-40154f03><div class="event-indicator" data-v-40154f03></div>`);
+        _push(`<li class="event-item" data-v-2c21b316><div class="event-heading" data-v-2c21b316><div class="event-indicator" data-v-2c21b316></div>`);
         ssrRenderVNode(_push, createVNode(resolveDynamicComponent(event.link ? "a" : "div"), {
           href: event.link,
           target: "_blank",
@@ -280,11 +232,11 @@ const _sfc_main$v = defineComponent({
         }, {
           default: withCtx((_2, _push2, _parent2, _scopeId) => {
             if (_push2) {
-              _push2(`<span class="event-date" data-v-40154f03${_scopeId}>${ssrInterpolate(new Intl.DateTimeFormat("en-US", {
+              _push2(`<span class="event-date" data-v-2c21b316${_scopeId}>${ssrInterpolate(new Intl.DateTimeFormat("en-US", {
                 year: "numeric",
                 month: "short",
                 day: "numeric"
-              }).format(new Date(event.date)))}</span><span class="event-divider" data-v-40154f03${_scopeId}>\u2014</span><span class="event-title" data-v-40154f03${_scopeId}>${ssrInterpolate(event.title)}</span>`);
+              }).format(new Date(event.date)))}</span><span class="event-divider" data-v-2c21b316${_scopeId}>\u2014</span><span class="event-title" data-v-2c21b316${_scopeId}>${ssrInterpolate(event.title)}</span>`);
             } else {
               return [
                 createVNode("span", { class: "event-date" }, toDisplayString(new Intl.DateTimeFormat("en-US", {
@@ -301,7 +253,7 @@ const _sfc_main$v = defineComponent({
         }), _parent);
         _push(`</div>`);
         if (event.description) {
-          _push(`<div class="event-description" data-v-40154f03>${ssrInterpolate(event.description)}</div>`);
+          _push(`<div class="event-description" data-v-2c21b316>${ssrInterpolate(event.description)}</div>`);
         } else {
           _push(`<!---->`);
         }
@@ -309,7 +261,7 @@ const _sfc_main$v = defineComponent({
       });
       _push(`<!--]--></ul></div>`);
       if (props.home ? props.eventCount : eventCount.value < unref(timeline$1).length) {
-        _push(`<div class="more-container" data-v-40154f03>`);
+        _push(`<div class="more-container" data-v-2c21b316>`);
         if (props.home) {
           _push(ssrRenderComponent(_component_RouterLink, {
             to: "/timeline",
@@ -327,7 +279,7 @@ const _sfc_main$v = defineComponent({
             _: 1
           }, _parent));
         } else {
-          _push(`<button class="more-event" data-v-40154f03> Show more </button>`);
+          _push(`<button class="more-event" data-v-2c21b316> Show more </button>`);
         }
         _push(`</div>`);
       } else {
@@ -337,13 +289,13 @@ const _sfc_main$v = defineComponent({
     };
   }
 });
-const _sfc_setup$v = _sfc_main$v.setup;
-_sfc_main$v.setup = (props, ctx) => {
+const _sfc_setup$o = _sfc_main$o.setup;
+_sfc_main$o.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Events.vue");
-  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
+  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
 };
-var __vite_components_0$7 = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["__scopeId", "data-v-40154f03"]]);
+var __vite_components_0$5 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["__scopeId", "data-v-2c21b316"]]);
 var articles = [
   {
     date: "26 March 2021",
@@ -397,7 +349,7 @@ var articles = [
 ];
 ;
 var Articles_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$u = defineComponent({
+const _sfc_main$n = defineComponent({
   __name: "Articles",
   __ssrInlineRender: true,
   props: {
@@ -415,23 +367,23 @@ const _sfc_main$u = defineComponent({
     const articleCount = ref(5);
     return (_ctx, _push, _parent, _attrs) => {
       const _component_RouterLink = resolveComponent("RouterLink");
-      _push(`<div${ssrRenderAttrs(_attrs)} data-v-36b49f90><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-36b49f90>Articles</h1><div class="relative flex flex-col" data-v-36b49f90><div class="absolute border-r-2 border-gray-200 bottom-1 top-1 dark:border-gray-800" style="${ssrRenderStyle({ "z-index": "-1", "left": "15px" })}" data-v-36b49f90></div><ul class="flex flex-col justify-end space-y-10 md:space-y-8" data-v-36b49f90><!--[-->`);
+      _push(`<div${ssrRenderAttrs(_attrs)} data-v-fc4995a6><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-fc4995a6>Articles</h1><div class="relative flex flex-col" data-v-fc4995a6><div class="absolute border-r-2 border-gray-200 bottom-1 top-1 dark:border-gray-800" style="${ssrRenderStyle({ "z-index": "-1", "left": "15px" })}" data-v-fc4995a6></div><ul class="flex flex-col justify-end space-y-10 md:space-y-8" data-v-fc4995a6><!--[-->`);
       ssrRenderList(unref(articles).slice(
         0,
         props.home ? props.articleCount : articleCount.value
       ), (article, index2) => {
-        _push(`<li class="article-item" data-v-36b49f90><div class="article-heading" data-v-36b49f90><div class="article-indicator" data-v-36b49f90></div>`);
+        _push(`<li class="article-item" data-v-fc4995a6><div class="article-heading" data-v-fc4995a6><div class="article-indicator" data-v-fc4995a6></div>`);
         _push(ssrRenderComponent(_component_RouterLink, {
           to: `/blog/${article.slug}`,
           class: "article-link article-headline"
         }, {
           default: withCtx((_2, _push2, _parent2, _scopeId) => {
             if (_push2) {
-              _push2(`<span class="article-date" data-v-36b49f90${_scopeId}>${ssrInterpolate(new Intl.DateTimeFormat("en-US", {
+              _push2(`<span class="article-date" data-v-fc4995a6${_scopeId}>${ssrInterpolate(new Intl.DateTimeFormat("en-US", {
                 year: "numeric",
                 month: "short",
                 day: "numeric"
-              }).format(new Date(article.date)))}</span><span class="article-divider" data-v-36b49f90${_scopeId}>\u2014</span><span class="article-title" data-v-36b49f90${_scopeId}>${ssrInterpolate(article.title)}</span>`);
+              }).format(new Date(article.date)))}</span><span class="article-divider" data-v-fc4995a6${_scopeId}>\u2014</span><span class="article-title" data-v-fc4995a6${_scopeId}>${ssrInterpolate(article.title)}</span>`);
             } else {
               return [
                 createVNode("span", { class: "article-date" }, toDisplayString(new Intl.DateTimeFormat("en-US", {
@@ -448,7 +400,7 @@ const _sfc_main$u = defineComponent({
         }, _parent));
         _push(`</div>`);
         if (article.description) {
-          _push(`<div class="article-description" data-v-36b49f90>${ssrInterpolate(article.description)}</div>`);
+          _push(`<div class="article-description" data-v-fc4995a6>${ssrInterpolate(article.description)}</div>`);
         } else {
           _push(`<!---->`);
         }
@@ -456,7 +408,7 @@ const _sfc_main$u = defineComponent({
       });
       _push(`<!--]--></ul></div>`);
       if (props.home ? props.articleCount : articleCount.value < unref(articles).length) {
-        _push(`<div class="more-container" data-v-36b49f90>`);
+        _push(`<div class="more-container" data-v-fc4995a6>`);
         if (props.home) {
           _push(ssrRenderComponent(_component_RouterLink, {
             to: "/blog",
@@ -474,7 +426,7 @@ const _sfc_main$u = defineComponent({
             _: 1
           }, _parent));
         } else {
-          _push(`<button class="more-article" data-v-36b49f90> Show more </button>`);
+          _push(`<button class="more-article" data-v-fc4995a6> Show more </button>`);
         }
         _push(`</div>`);
       } else {
@@ -484,27 +436,27 @@ const _sfc_main$u = defineComponent({
     };
   }
 });
-const _sfc_setup$u = _sfc_main$u.setup;
-_sfc_main$u.setup = (props, ctx) => {
+const _sfc_setup$n = _sfc_main$n.setup;
+_sfc_main$n.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Articles.vue");
-  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+  return _sfc_setup$n ? _sfc_setup$n(props, ctx) : void 0;
 };
-var __vite_components_0$6 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["__scopeId", "data-v-36b49f90"]]);
+var __vite_components_0$4 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["__scopeId", "data-v-fc4995a6"]]);
 ;
 var Subscribe_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$t = {};
-function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))} data-v-74a757f9><form action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f" method="post" target="_blank" validate data-v-74a757f9><label for="mce-EMAIL" class="inline-flex mb-8 text-2xl font-bold" data-v-74a757f9>Subscribe</label><div class="flex flex-col space-y-2 md:space-x-2 md:space-y-0 md:flex-row" data-v-74a757f9><input id="mce-EMAIL" name="EMAIL" class="form-input" type="email" placeholder="E-mail" required data-v-74a757f9><input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="form-button" data-v-74a757f9></div></form></div>`);
+const _sfc_main$m = {};
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))} data-v-332ccc6d><form action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f" method="post" target="_blank" validate data-v-332ccc6d><label for="mce-EMAIL" class="inline-flex mb-8 text-2xl font-bold" data-v-332ccc6d>Subscribe</label><div class="flex flex-col space-y-2 md:space-x-2 md:space-y-0 md:flex-row" data-v-332ccc6d><input id="mce-EMAIL" name="EMAIL" class="form-input" type="email" placeholder="E-mail" required data-v-332ccc6d><input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="form-button" data-v-332ccc6d></div></form></div>`);
 }
-const _sfc_setup$t = _sfc_main$t.setup;
-_sfc_main$t.setup = (props, ctx) => {
+const _sfc_setup$m = _sfc_main$m.setup;
+_sfc_main$m.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Subscribe.vue");
-  return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
+  return _sfc_setup$m ? _sfc_setup$m(props, ctx) : void 0;
 };
-var __vite_components_0$5 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$4], ["__scopeId", "data-v-74a757f9"]]);
-const _sfc_main$s = defineComponent({
+var __vite_components_0$3 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["ssrRender", _sfc_ssrRender$3], ["__scopeId", "data-v-332ccc6d"]]);
+const _sfc_main$l = defineComponent({
   __name: "index",
   __ssrInlineRender: true,
   setup(__props) {
@@ -512,10 +464,10 @@ const _sfc_main$s = defineComponent({
       title: "Home - Muhammad Farhan"
     });
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_AppHome = __vite_components_0$8;
-      const _component_Events = __vite_components_0$7;
-      const _component_Articles = __vite_components_0$6;
-      const _component_Subscribe = __vite_components_0$5;
+      const _component_AppHome = resolveComponent("AppHome");
+      const _component_Events = __vite_components_0$5;
+      const _component_Articles = __vite_components_0$4;
+      const _component_Subscribe = __vite_components_0$3;
       _push(`<div${ssrRenderAttrs(mergeProps({ class: "space-y-24" }, _attrs))}>`);
       _push(ssrRenderComponent(_component_AppHome, null, null, _parent));
       _push(ssrRenderComponent(_component_Events, { home: true }, null, _parent));
@@ -525,20 +477,22 @@ const _sfc_main$s = defineComponent({
     };
   }
 });
-const _sfc_setup$s = _sfc_main$s.setup;
-_sfc_main$s.setup = (props, ctx) => {
+const _sfc_setup$l = _sfc_main$l.setup;
+_sfc_main$l.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/index.vue");
-  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
+  return _sfc_setup$l ? _sfc_setup$l(props, ctx) : void 0;
 };
-const routes$1 = [{ "name": "about", "path": "/about", "component": () => Promise.resolve().then(function() {
+const routes$1 = [{ "name": "README", "path": "/readme", "component": () => Promise.resolve().then(function() {
+  return README;
+}), "props": true }, { "name": "all", "path": "/:all(.*)*", "component": () => Promise.resolve().then(function() {
+  return ____all_;
+}), "props": true, "meta": { "layout": 404 } }, { "name": "about", "path": "/about", "component": () => Promise.resolve().then(function() {
   return about$1;
 }), "props": true }, { "name": "console", "path": "/console", "component": () => Promise.resolve().then(function() {
   return console;
-}), "props": true }, { "name": "index", "path": "/", "component": _sfc_main$s, "props": true }, { "name": "newsletter", "path": "/newsletter", "component": () => Promise.resolve().then(function() {
+}), "props": true }, { "name": "index", "path": "/", "component": _sfc_main$l, "props": true }, { "name": "newsletter", "path": "/newsletter", "component": () => Promise.resolve().then(function() {
   return newsletter;
-}), "props": true }, { "name": "README", "path": "/readme", "component": () => Promise.resolve().then(function() {
-  return README;
 }), "props": true }, { "name": "technique", "path": "/technique", "component": () => Promise.resolve().then(function() {
   return technique;
 }), "props": true }, { "name": "timeline", "path": "/timeline", "component": () => Promise.resolve().then(function() {
@@ -547,192 +501,16 @@ const routes$1 = [{ "name": "about", "path": "/about", "component": () => Promis
   return tracker;
 }), "props": true }, { "name": "works", "path": "/works", "component": () => Promise.resolve().then(function() {
   return works;
-}), "props": true }, { "name": "all", "path": "/:all(.*)*", "component": () => Promise.resolve().then(function() {
-  return ____all_;
-}), "props": true, "meta": { "layout": 404 } }, { "name": "blog-blas-lapack", "path": "/blog/blas-lapack", "component": () => Promise.resolve().then(function() {
-  return blasLapack;
 }), "props": true }, { "name": "blog-docker-event", "path": "/blog/docker-event", "component": () => Promise.resolve().then(function() {
   return dockerEvent;
 }), "props": true }, { "name": "blog-hello-world", "path": "/blog/hello-world", "component": () => Promise.resolve().then(function() {
   return helloWorld;
 }), "props": true }, { "name": "blog", "path": "/blog", "component": () => Promise.resolve().then(function() {
   return index;
-}), "props": true }, { "name": "blog-r-ide", "path": "/blog/r-ide", "component": () => Promise.resolve().then(function() {
-  return rIde;
-}), "props": true }, { "name": "blog-r-installation", "path": "/blog/r-installation", "component": () => Promise.resolve().then(function() {
-  return rInstallation;
-}), "props": true }, { "name": "blog-r-packages", "path": "/blog/r-packages", "component": () => Promise.resolve().then(function() {
-  return rPackages;
-}), "props": true }, { "name": "blog-r-sig", "path": "/blog/r-sig", "component": () => Promise.resolve().then(function() {
-  return rSig;
 }), "props": true }, { "name": "hi-name", "path": "/hi/:name", "component": () => Promise.resolve().then(function() {
   return _name_;
 }), "props": true }];
-const _hoisted_1$4 = {
-  xmlns: "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  width: "1.2em",
-  height: "1.2em",
-  preserveAspectRatio: "xMidYMid meet",
-  viewBox: "0 0 20 20"
-};
-const _hoisted_2$4 = /* @__PURE__ */ createElementVNode("g", { fill: "none" }, [
-  /* @__PURE__ */ createElementVNode("path", {
-    d: "M17.293 13.293A8 8 0 0 1 6.707 2.707a8.001 8.001 0 1 0 10.586 10.586z",
-    fill: "currentColor"
-  })
-], -1);
-const _hoisted_3$4 = [
-  _hoisted_2$4
-];
-function render$4(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$4, _hoisted_3$4);
-}
-var __vite_components_0$4 = { name: "heroicons-solid-moon", render: render$4 };
-const _hoisted_1$3 = {
-  xmlns: "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  width: "1.2em",
-  height: "1.2em",
-  preserveAspectRatio: "xMidYMid meet",
-  viewBox: "0 0 20 20"
-};
-const _hoisted_2$3 = /* @__PURE__ */ createElementVNode("g", { fill: "none" }, [
-  /* @__PURE__ */ createElementVNode("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M10 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm4 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0zm-.464 4.95l.707.707a1 1 0 0 0 1.414-1.414l-.707-.707a1 1 0 0 0-1.414 1.414zm2.12-10.607a1 1 0 0 1 0 1.414l-.706.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0zM17 11a1 1 0 1 0 0-2h-1a1 1 0 1 0 0 2h1zm-7 4a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1zM5.05 6.464A1 1 0 1 0 6.465 5.05l-.708-.707a1 1 0 0 0-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 1.414zM4 11a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2h1z",
-    fill: "currentColor"
-  })
-], -1);
-const _hoisted_3$3 = [
-  _hoisted_2$3
-];
-function render$3(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$3, _hoisted_3$3);
-}
-var __vite_components_1$2 = { name: "heroicons-solid-sun", render: render$3 };
-const isDark = useDark();
-useToggle(isDark);
-;
-var AppHeader_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$r = defineComponent({
-  __name: "AppHeader",
-  __ssrInlineRender: true,
-  setup(__props) {
-    return (_ctx, _push, _parent, _attrs) => {
-      const _component_RouterLink = resolveComponent("RouterLink");
-      const _component_heroicons_solid_moon = __vite_components_0$4;
-      const _component_heroicons_solid_sun = __vite_components_1$2;
-      _push(`<header${ssrRenderAttrs(mergeProps({ class: "flex top-0 flex-col p-8 z-1 md:sticky md:flex-row md:items-center md:justify-between header-gradient" }, _attrs))} data-v-13f193a1><nav class="flex flex-col items-start space-y-4 md:space-x-4 md:flex-row md:space-y-0" data-v-13f193a1>`);
-      _push(ssrRenderComponent(_component_RouterLink, {
-        to: "/",
-        class: "header-link"
-      }, {
-        default: withCtx((_2, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(`<span data-v-13f193a1${_scopeId}>Home</span>`);
-          } else {
-            return [
-              createVNode("span", null, "Home")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(ssrRenderComponent(_component_RouterLink, {
-        to: "/timeline",
-        class: "header-link"
-      }, {
-        default: withCtx((_2, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(`<span data-v-13f193a1${_scopeId}>Timeline</span>`);
-          } else {
-            return [
-              createVNode("span", null, "Timeline")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(ssrRenderComponent(_component_RouterLink, {
-        to: "/works",
-        class: "header-link"
-      }, {
-        default: withCtx((_2, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(`<span data-v-13f193a1${_scopeId}>Works</span>`);
-          } else {
-            return [
-              createVNode("span", null, "Works")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(ssrRenderComponent(_component_RouterLink, {
-        to: "/blog",
-        class: "header-link"
-      }, {
-        default: withCtx((_2, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(`<span data-v-13f193a1${_scopeId}>Blog</span>`);
-          } else {
-            return [
-              createVNode("span", null, "Blog")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(ssrRenderComponent(_component_RouterLink, {
-        to: "/newsletter",
-        class: "header-link"
-      }, {
-        default: withCtx((_2, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(`<span data-v-13f193a1${_scopeId}>Newsletter</span>`);
-          } else {
-            return [
-              createVNode("span", null, "Newsletter")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(ssrRenderComponent(_component_RouterLink, {
-        to: "/about",
-        class: "header-link"
-      }, {
-        default: withCtx((_2, _push2, _parent2, _scopeId) => {
-          if (_push2) {
-            _push2(`<span data-v-13f193a1${_scopeId}>About</span>`);
-          } else {
-            return [
-              createVNode("span", null, "About")
-            ];
-          }
-        }),
-        _: 1
-      }, _parent));
-      _push(`</nav><div class="flex mt-8 items-start space-x-4 md:mt-0" data-v-13f193a1><button class="header-link" aria-label="Toggle dark mode" data-v-13f193a1>`);
-      if (unref(isDark)) {
-        _push(ssrRenderComponent(_component_heroicons_solid_moon, null, null, _parent));
-      } else {
-        _push(ssrRenderComponent(_component_heroicons_solid_sun, null, null, _parent));
-      }
-      _push(`</button></div></header>`);
-    };
-  }
-});
-const _sfc_setup$r = _sfc_main$r.setup;
-_sfc_main$r.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/AppHeader.vue");
-  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
-};
-var __vite_components_0$3 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["__scopeId", "data-v-13f193a1"]]);
-const _hoisted_1$2 = {
+const _hoisted_1$1 = {
   xmlns: "http://www.w3.org/2000/svg",
   "xmlns:xlink": "http://www.w3.org/1999/xlink",
   width: "1.2em",
@@ -740,11 +518,11 @@ const _hoisted_1$2 = {
   preserveAspectRatio: "xMidYMid meet",
   viewBox: "0 0 32 32"
 };
-const _hoisted_2$2 = /* @__PURE__ */ createElementVNode("path", {
+const _hoisted_2$1 = /* @__PURE__ */ createElementVNode("path", {
   d: "M16 2a14 14 0 1 0 14 14A14 14 0 0 0 16 2zm0 26a12 12 0 1 1 12-12a12 12 0 0 1-12 12z",
   fill: "currentColor"
 }, null, -1);
-const _hoisted_3$2 = /* @__PURE__ */ createElementVNode("path", {
+const _hoisted_3$1 = /* @__PURE__ */ createElementVNode("path", {
   d: "M15 8h2v11h-2z",
   fill: "currentColor"
 }, null, -1);
@@ -753,68 +531,34 @@ const _hoisted_4$1 = /* @__PURE__ */ createElementVNode("path", {
   fill: "currentColor"
 }, null, -1);
 const _hoisted_5$1 = [
-  _hoisted_2$2,
-  _hoisted_3$2,
+  _hoisted_2$1,
+  _hoisted_3$1,
   _hoisted_4$1
 ];
-function render$2(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$2, _hoisted_5$1);
-}
-var __vite_components_1$1 = { name: "carbon-warning", render: render$2 };
-const _hoisted_1$1 = {
-  xmlns: "http://www.w3.org/2000/svg",
-  "xmlns:xlink": "http://www.w3.org/1999/xlink",
-  width: "1.2em",
-  height: "1.2em",
-  preserveAspectRatio: "xMidYMid meet",
-  viewBox: "0 0 16 16"
-};
-const _hoisted_2$1 = /* @__PURE__ */ createElementVNode("g", { fill: "currentColor" }, [
-  /* @__PURE__ */ createElementVNode("path", { d: "M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27c.68 0 1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" })
-], -1);
-const _hoisted_3$1 = [
-  _hoisted_2$1
-];
 function render$1(_ctx, _cache) {
-  return openBlock(), createElementBlock("svg", _hoisted_1$1, _hoisted_3$1);
+  return openBlock(), createElementBlock("svg", _hoisted_1$1, _hoisted_5$1);
 }
-var __vite_components_0$2 = { name: "bi-github", render: render$1 };
-;
-var AppFooter_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$q = {};
-function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
-  const _component_bi_github = __vite_components_0$2;
-  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "flex flex-col m-8 text-sm md:flex-row md:items-center md:justify-between" }, _attrs))} data-v-39fef7e4><nav class="flex flex-col items-start space-y-4 md:space-x-4 md:space-y-0 md:flex-row" data-v-39fef7e4><a class="footer-link" href="https://twitter.com/liyasthomas" target="_blank" rel="noopener" data-v-39fef7e4>Twitter</a><a class="footer-link" href="https://www.linkedin.com/in/liyasthomas" target="_blank" rel="noopener" data-v-39fef7e4>LinkedIn</a><a class="footer-link" href="https://github.com/liyasthomas" target="_blank" rel="noopener" data-v-39fef7e4>GitHub</a><a class="footer-link" href="mailto:hi@liyasthomas.com" data-v-39fef7e4>E-mail</a><a class="footer-link" href="https://calendly.com/liyasthomas/30m" target="_blank" rel="noopener" data-v-39fef7e4>Calendar</a></nav><div class="flex mt-8 items-start space-x-4 md:mt-0" data-v-39fef7e4><a class="footer-link" href="https://github.com/liyasthomas/liyasthomas.com" target="_blank" rel="noopener" data-v-39fef7e4>`);
-  _push(ssrRenderComponent(_component_bi_github, null, null, _parent));
-  _push(`</a></div></footer>`);
-}
-const _sfc_setup$q = _sfc_main$q.setup;
-_sfc_main$q.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/AppFooter.vue");
-  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
-};
-var __vite_components_1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$3], ["__scopeId", "data-v-39fef7e4"]]);
+var __vite_components_0$2 = { name: "carbon-warning", render: render$1 };
 ;
 var _404_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$p = defineComponent({
+const _sfc_main$k = defineComponent({
   __name: "404",
   __ssrInlineRender: true,
   setup(__props) {
     useRouter();
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_AppHeader = __vite_components_0$3;
-      const _component_carbon_warning = __vite_components_1$1;
+      const _component_AppHeader = resolveComponent("AppHeader");
+      const _component_carbon_warning = __vite_components_0$2;
       const _component_RouterView = resolveComponent("RouterView");
       const _component_RouterLink = resolveComponent("RouterLink");
-      const _component_AppFooter = __vite_components_1;
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex container flex-col min-h-screen" }, _attrs))} data-v-6afd6e8e>`);
+      const _component_AppFooter = resolveComponent("AppFooter");
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex container flex-col min-h-screen" }, _attrs))} data-v-54e03ced>`);
       _push(ssrRenderComponent(_component_AppHeader, null, null, _parent));
-      _push(`<main class="flex flex-col flex-1 m-8 text-center dark:text-gray-200" data-v-6afd6e8e><p class="text-4xl" data-v-6afd6e8e>`);
+      _push(`<main class="flex flex-col flex-1 m-8 text-center dark:text-gray-200" data-v-54e03ced><p class="text-4xl" data-v-54e03ced>`);
       _push(ssrRenderComponent(_component_carbon_warning, { class: "inline-block" }, null, _parent));
       _push(`</p>`);
       _push(ssrRenderComponent(_component_RouterView, null, null, _parent));
-      _push(`<div data-v-6afd6e8e>`);
+      _push(`<div data-v-54e03ced>`);
       _push(ssrRenderComponent(_component_RouterLink, {
         to: "/",
         class: "error-link"
@@ -830,24 +574,24 @@ const _sfc_main$p = defineComponent({
         }),
         _: 1
       }, _parent));
-      _push(`<button class="error-link" data-v-6afd6e8e>Back</button></div></main>`);
+      _push(`<button class="error-link" data-v-54e03ced>Back</button></div></main>`);
       _push(ssrRenderComponent(_component_AppFooter, null, null, _parent));
       _push(`</div>`);
     };
   }
 });
-const _sfc_setup$p = _sfc_main$p.setup;
-_sfc_main$p.setup = (props, ctx) => {
+const _sfc_setup$k = _sfc_main$k.setup;
+_sfc_main$k.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/layouts/404.vue");
-  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
+  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
 };
-var __layout_0 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["__scopeId", "data-v-6afd6e8e"]]);
-const _sfc_main$o = {};
+var __layout_0 = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["__scopeId", "data-v-54e03ced"]]);
+const _sfc_main$j = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
-  const _component_AppHeader = __vite_components_0$3;
+  const _component_AppHeader = resolveComponent("AppHeader");
   const _component_RouterView = resolveComponent("RouterView");
-  const _component_AppFooter = __vite_components_1;
+  const _component_AppFooter = resolveComponent("AppFooter");
   _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex container flex-col min-h-screen" }, _attrs))}>`);
   _push(ssrRenderComponent(_component_AppHeader, null, null, _parent));
   _push(`<main class="flex flex-col flex-1 m-8">`);
@@ -856,18 +600,18 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   _push(ssrRenderComponent(_component_AppFooter, null, null, _parent));
   _push(`</div>`);
 }
-const _sfc_setup$o = _sfc_main$o.setup;
-_sfc_main$o.setup = (props, ctx) => {
+const _sfc_setup$j = _sfc_main$j.setup;
+_sfc_main$j.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/layouts/default.vue");
-  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
+  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
 };
-var __layout_1 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$2]]);
-const _sfc_main$n = {};
+var __layout_1 = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["ssrRender", _sfc_ssrRender$2]]);
+const _sfc_main$i = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  const _component_AppHeader = __vite_components_0$3;
+  const _component_AppHeader = resolveComponent("AppHeader");
   const _component_RouterView = resolveComponent("RouterView");
-  const _component_AppFooter = __vite_components_1;
+  const _component_AppFooter = resolveComponent("AppFooter");
   _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex container flex-col min-h-screen" }, _attrs))}>`);
   _push(ssrRenderComponent(_component_AppHeader, null, null, _parent));
   _push(`<main class="flex flex-col flex-1 m-8">`);
@@ -876,13 +620,13 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
   _push(ssrRenderComponent(_component_AppFooter, null, null, _parent));
   _push(`</div>`);
 }
-const _sfc_setup$n = _sfc_main$n.setup;
-_sfc_main$n.setup = (props, ctx) => {
+const _sfc_setup$i = _sfc_main$i.setup;
+_sfc_main$i.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/layouts/home.vue");
-  return _sfc_setup$n ? _sfc_setup$n(props, ctx) : void 0;
+  return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
-var __layout_2 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["ssrRender", _sfc_ssrRender$1]]);
+var __layout_2 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$1]]);
 const layouts = {
   "404": __layout_0,
   "default": __layout_1,
@@ -898,7 +642,7 @@ function setupLayouts(routes2) {
     };
   });
 }
-const _sfc_main$m = defineComponent({
+const _sfc_main$h = defineComponent({
   __name: "App",
   __ssrInlineRender: true,
   setup(__props) {
@@ -911,16 +655,16 @@ const _sfc_main$m = defineComponent({
     };
   }
 });
-const _sfc_setup$m = _sfc_main$m.setup;
-_sfc_main$m.setup = (props, ctx) => {
+const _sfc_setup$h = _sfc_main$h.setup;
+_sfc_main$h.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/App.vue");
-  return _sfc_setup$m ? _sfc_setup$m(props, ctx) : void 0;
+  return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
 var windi = "";
 var main = "";
 const routes = setupLayouts(routes$1);
-const createApp = ViteSSG(_sfc_main$m, { routes }, (ctx) => {
+const createApp = ViteSSG(_sfc_main$h, { routes }, (ctx) => {
   Object.values({ "./modules/nprogress.ts": __glob_7_0, "./modules/pwa.ts": __glob_7_1 }).map(
     (i2) => {
       var _a;
@@ -1156,100 +900,8 @@ var virtual_pwaRegister = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.d
   __proto__: null,
   registerSW
 }, Symbol.toStringTag, { value: "Module" }));
-;
-var about_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$l = defineComponent({
-  __name: "about",
-  __ssrInlineRender: true,
-  setup(__props) {
-    useHead({
-      title: "Synopsis"
-    });
-    const form = {
-      name: "",
-      email: "",
-      message: ""
-    };
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<!--[--><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-01e47f1f>About</h1><form name="contact" data-netlify="true" data-v-01e47f1f><div class="flex flex-col space-y-2 max-w-sm" data-v-01e47f1f><input type="text" name="name"${ssrRenderAttr("value", form.name)} class="form-input" placeholder="Name" data-v-01e47f1f><input class="form-input" type="email" name="email"${ssrRenderAttr("value", form.email)} placeholder="E-mail" data-v-01e47f1f><textarea name="message" rows="10" class="form-input" placeholder="Message" data-v-01e47f1f>${ssrInterpolate(form.message)}</textarea><div data-v-01e47f1f><button type="submit" class="form-button" data-v-01e47f1f> Send </button></div></div></form><!--]-->`);
-    };
-  }
-});
-const _sfc_setup$l = _sfc_main$l.setup;
-_sfc_main$l.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/about.vue");
-  return _sfc_setup$l ? _sfc_setup$l(props, ctx) : void 0;
-};
-var about = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["__scopeId", "data-v-01e47f1f"]]);
-var about$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": about
-}, Symbol.toStringTag, { value: "Module" }));
-;
-var Cv_vue_vue_type_style_index_0_lang = "";
-const _sfc_main$k = {};
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><div class="background"><canvas id="canvas" width="500" height="500"></canvas></div><span id="measureWidth"></span><div class="intro-box"><h1 class="title"></h1><h2 class="oneliner"></h2><h2 class="title"></h2></div><legend><ul></ul></legend><div class="chart"><div class="skills"></div></div><div class="skillbars-container"><div class="skillbars"></div></div><div class="social-icons"></div><div id="scroll-left">\u2039</div><div id="scroll-right">\u203A</div><!--]-->`);
-}
-const _sfc_setup$k = _sfc_main$k.setup;
-_sfc_main$k.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Cv.vue");
-  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
-};
-var Timeline$1 = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["ssrRender", _sfc_ssrRender]]);
-const _sfc_main$j = defineComponent({
-  __name: "console",
-  __ssrInlineRender: true,
-  setup(__props) {
-    useHead({
-      title: "Timeline - Muhamamd Farhan"
-    });
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<!--[--><h1 class="inline-flex mb-8 text-2xl font-bold">${ssrInterpolate(_ctx.t("button.events"))}</h1>`);
-      _push(ssrRenderComponent(Timeline$1, null, null, _parent));
-      _push(`<!--]-->`);
-    };
-  }
-});
-const _sfc_setup$j = _sfc_main$j.setup;
-_sfc_main$j.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/console.vue");
-  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
-};
-var console = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": _sfc_main$j
-}, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$i = defineComponent({
-  __name: "newsletter",
-  __ssrInlineRender: true,
-  setup(__props) {
-    useHead({
-      title: "Technology developing Updates! "
-    });
-    return (_ctx, _push, _parent, _attrs) => {
-      const _component_Subscribe = __vite_components_0$5;
-      _push(`<!--[-->`);
-      _push(ssrRenderComponent(_component_Subscribe, null, null, _parent));
-      _push(`<iframe class="flex flex-col" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6547777082062102528" height="700" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7114582652485025794" height="476" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><!--]-->`);
-    };
-  }
-});
-const _sfc_setup$i = _sfc_main$i.setup;
-_sfc_main$i.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/newsletter.vue");
-  return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
-};
-var newsletter = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": _sfc_main$i
-}, Symbol.toStringTag, { value: "Module" }));
-const meta$7 = [];
-const _sfc_main$h = {
+const meta$2 = [];
+const _sfc_main$g = {
   __name: "README",
   __ssrInlineRender: true,
   setup(__props, { expose: __expose }) {
@@ -1264,16 +916,133 @@ const _sfc_main$h = {
     };
   }
 };
-const _sfc_setup$h = _sfc_main$h.setup;
-_sfc_main$h.setup = (props, ctx) => {
+const _sfc_setup$g = _sfc_main$g.setup;
+_sfc_main$g.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/README.md");
-  return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
+  return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
 };
 var README = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  meta: meta$7,
-  "default": _sfc_main$h
+  meta: meta$2,
+  "default": _sfc_main$g
+}, Symbol.toStringTag, { value: "Module" }));
+var block0 = {};
+const _sfc_main$f = defineComponent({
+  __name: "[...all]",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({
+      title: "404 - Not Found"
+    });
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<div${ssrRenderAttrs(_attrs)}> Not Found </div>`);
+    };
+  }
+});
+if (typeof block0 === "function")
+  block0(_sfc_main$f);
+const _sfc_setup$f = _sfc_main$f.setup;
+_sfc_main$f.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/[...all].vue");
+  return _sfc_setup$f ? _sfc_setup$f(props, ctx) : void 0;
+};
+var ____all_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": _sfc_main$f
+}, Symbol.toStringTag, { value: "Module" }));
+;
+var about_vue_vue_type_style_index_0_scoped_true_lang = "";
+const _sfc_main$e = defineComponent({
+  __name: "about",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({
+      title: "Synopsis"
+    });
+    const form = {
+      name: "",
+      email: "",
+      message: ""
+    };
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<!--[--><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-6194c6d1>About</h1><form name="contact" data-netlify="true" data-v-6194c6d1><div class="flex flex-col space-y-2 max-w-sm" data-v-6194c6d1><input type="text" name="name"${ssrRenderAttr("value", form.name)} class="form-input" placeholder="Name" data-v-6194c6d1><input class="form-input" type="email" name="email"${ssrRenderAttr("value", form.email)} placeholder="E-mail" data-v-6194c6d1><textarea name="message" rows="10" class="form-input" placeholder="Message" data-v-6194c6d1>${ssrInterpolate(form.message)}</textarea><div data-v-6194c6d1><button type="submit" class="form-button" data-v-6194c6d1> Send </button></div></div></form><!--]-->`);
+    };
+  }
+});
+const _sfc_setup$e = _sfc_main$e.setup;
+_sfc_main$e.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/about.vue");
+  return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
+};
+var about = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["__scopeId", "data-v-6194c6d1"]]);
+var about$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": about
+}, Symbol.toStringTag, { value: "Module" }));
+;
+var Cv_vue_vue_type_style_index_0_lang = "";
+const _sfc_main$d = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<!--[--><div class="background"><canvas id="canvas" width="500" height="500"></canvas></div><span id="measureWidth"></span><div class="intro-box"><h1 class="title"></h1><h2 class="oneliner"></h2><h2 class="title"></h2></div><legend><ul></ul></legend><div class="chart"><div class="skills"></div></div><div class="skillbars-container"><div class="skillbars"></div></div><div class="social-icons"></div><div id="scroll-left">\u2039</div><div id="scroll-right">\u203A</div><!--]-->`);
+}
+const _sfc_setup$d = _sfc_main$d.setup;
+_sfc_main$d.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Cv.vue");
+  return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
+};
+var Timeline$1 = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["ssrRender", _sfc_ssrRender]]);
+const _sfc_main$c = defineComponent({
+  __name: "console",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({
+      title: "Timeline - Muhamamd Farhan"
+    });
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<!--[--><h1 class="inline-flex mb-8 text-2xl font-bold">${ssrInterpolate(_ctx.t("button.events"))}</h1>`);
+      _push(ssrRenderComponent(Timeline$1, null, null, _parent));
+      _push(`<!--]-->`);
+    };
+  }
+});
+const _sfc_setup$c = _sfc_main$c.setup;
+_sfc_main$c.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/console.vue");
+  return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
+};
+var console = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": _sfc_main$c
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$b = defineComponent({
+  __name: "newsletter",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({
+      title: "Technology developing Updates! "
+    });
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_Subscribe = __vite_components_0$3;
+      _push(`<!--[-->`);
+      _push(ssrRenderComponent(_component_Subscribe, null, null, _parent));
+      _push(`<iframe class="flex flex-col" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6547777082062102528" height="700" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7114582652485025794" height="476" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><!--]-->`);
+    };
+  }
+});
+const _sfc_setup$b = _sfc_main$b.setup;
+_sfc_main$b.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/newsletter.vue");
+  return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
+};
+var newsletter = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": _sfc_main$b
 }, Symbol.toStringTag, { value: "Module" }));
 var projects$1 = [
   {
@@ -1396,16 +1165,16 @@ var projects$1 = [
 ];
 ;
 var Technology_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$g = defineComponent({
+const _sfc_main$a = defineComponent({
   __name: "Technology",
   __ssrInlineRender: true,
   setup(__props) {
     const projectCount = ref(6);
     return (_ctx, _push, _parent, _attrs) => {
       const _component_card = resolveComponent("card");
-      _push(`<!--[--><div class="flex flex-col" data-v-48989763><ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-v-48989763><!--[-->`);
+      _push(`<!--[--><div class="flex flex-col" data-v-31ed0358><ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-v-31ed0358><!--[-->`);
       ssrRenderList(unref(projects$1).slice(0, projectCount.value), (project, index2) => {
-        _push(`<li data-v-48989763>`);
+        _push(`<li data-v-31ed0358>`);
         ssrRenderVNode(_push, createVNode(resolveDynamicComponent(project.link ? "a" : "div"), {
           href: project.link,
           target: "_blank",
@@ -1417,9 +1186,9 @@ const _sfc_main$g = defineComponent({
               _push2(ssrRenderComponent(_component_card, { class: "m-1" }, {
                 default: withCtx((_22, _push3, _parent3, _scopeId2) => {
                   if (_push3) {
-                    _push3(`<div class="project-heading" data-v-48989763${_scopeId2}><div class="project-headline" data-v-48989763${_scopeId2}><span class="project-title" data-v-48989763${_scopeId2}>${ssrInterpolate(project.title)}</span></div></div><div class="project-image" data-v-48989763${_scopeId2}><img${ssrRenderAttr("src", `${project.image}`)} data-v-48989763${_scopeId2}></div>`);
+                    _push3(`<div class="project-heading" data-v-31ed0358${_scopeId2}><div class="project-headline" data-v-31ed0358${_scopeId2}><span class="project-title" data-v-31ed0358${_scopeId2}>${ssrInterpolate(project.title)}</span></div></div><div class="project-image" data-v-31ed0358${_scopeId2}><img${ssrRenderAttr("src", `${project.image}`)} data-v-31ed0358${_scopeId2}></div>`);
                     if (project.description) {
-                      _push3(`<div class="project-description" data-v-48989763${_scopeId2}>${ssrInterpolate(project.description)}</div>`);
+                      _push3(`<div class="project-description" data-v-31ed0358${_scopeId2}>${ssrInterpolate(project.description)}</div>`);
                     } else {
                       _push3(`<!---->`);
                     }
@@ -1474,7 +1243,7 @@ const _sfc_main$g = defineComponent({
       });
       _push(`<!--]--></ul></div>`);
       if (projectCount.value < unref(projects$1).length) {
-        _push(`<div class="more-container" data-v-48989763><button class="more-project" data-v-48989763>Show more</button></div>`);
+        _push(`<div class="more-container" data-v-31ed0358><button class="more-project" data-v-31ed0358>Show more</button></div>`);
       } else {
         _push(`<!---->`);
       }
@@ -1482,14 +1251,14 @@ const _sfc_main$g = defineComponent({
     };
   }
 });
-const _sfc_setup$g = _sfc_main$g.setup;
-_sfc_main$g.setup = (props, ctx) => {
+const _sfc_setup$a = _sfc_main$a.setup;
+_sfc_main$a.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Technology.vue");
-  return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
+  return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
-var Technology = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__scopeId", "data-v-48989763"]]);
-const _sfc_main$f = defineComponent({
+var Technology = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-31ed0358"]]);
+const _sfc_main$9 = defineComponent({
   __name: "technique",
   __ssrInlineRender: true,
   setup(__props) {
@@ -1503,17 +1272,17 @@ const _sfc_main$f = defineComponent({
     };
   }
 });
-const _sfc_setup$f = _sfc_main$f.setup;
-_sfc_main$f.setup = (props, ctx) => {
+const _sfc_setup$9 = _sfc_main$9.setup;
+_sfc_main$9.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/technique.vue");
-  return _sfc_setup$f ? _sfc_setup$f(props, ctx) : void 0;
+  return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
 var technique = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$f
+  "default": _sfc_main$9
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$e = defineComponent({
+const _sfc_main$8 = defineComponent({
   __name: "timeline",
   __ssrInlineRender: true,
   setup(__props) {
@@ -1521,26 +1290,26 @@ const _sfc_main$e = defineComponent({
       title: "Timeline"
     });
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_Events = __vite_components_0$7;
+      const _component_Events = __vite_components_0$5;
       _push(`<!--[--><h1 class="inline-flex mb-8 text-2xl font-bold">Events</h1>`);
       _push(ssrRenderComponent(_component_Events, null, null, _parent));
       _push(`<!--]-->`);
     };
   }
 });
-const _sfc_setup$e = _sfc_main$e.setup;
-_sfc_main$e.setup = (props, ctx) => {
+const _sfc_setup$8 = _sfc_main$8.setup;
+_sfc_main$8.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/timeline.vue");
-  return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
+  return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
 var timeline = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$e
+  "default": _sfc_main$8
 }, Symbol.toStringTag, { value: "Module" }));
 ;
 var Timeline_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$d = defineComponent({
+const _sfc_main$7 = defineComponent({
   __name: "Timeline",
   __ssrInlineRender: true,
   setup(__props) {
@@ -1550,18 +1319,18 @@ const _sfc_main$d = defineComponent({
         src: "http://localhost:3333/covid-tracker/index.html",
         width: "100%",
         height: "900px"
-      }, _attrs))} data-v-69ee9932></iframe>`);
+      }, _attrs))} data-v-aa0509fc></iframe>`);
     };
   }
 });
-const _sfc_setup$d = _sfc_main$d.setup;
-_sfc_main$d.setup = (props, ctx) => {
+const _sfc_setup$7 = _sfc_main$7.setup;
+_sfc_main$7.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Timeline.vue");
-  return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
+  return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
 };
-var Timeline = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-69ee9932"]]);
-const _sfc_main$c = defineComponent({
+var Timeline = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["__scopeId", "data-v-aa0509fc"]]);
+const _sfc_main$6 = defineComponent({
   __name: "tracker",
   __ssrInlineRender: true,
   setup(__props) {
@@ -1575,15 +1344,15 @@ const _sfc_main$c = defineComponent({
     };
   }
 });
-const _sfc_setup$c = _sfc_main$c.setup;
-_sfc_main$c.setup = (props, ctx) => {
+const _sfc_setup$6 = _sfc_main$6.setup;
+_sfc_main$6.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/tracker.vue");
-  return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
+  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
 var tracker = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$c
+  "default": _sfc_main$6
 }, Symbol.toStringTag, { value: "Module" }));
 var projects = [
   {
@@ -1706,7 +1475,7 @@ var projects = [
 ];
 ;
 var Projects_vue_vue_type_style_index_0_scoped_true_lang = "";
-const _sfc_main$b = defineComponent({
+const _sfc_main$5 = defineComponent({
   __name: "Projects",
   __ssrInlineRender: true,
   props: {
@@ -1724,12 +1493,12 @@ const _sfc_main$b = defineComponent({
     const projectCount = ref(6);
     return (_ctx, _push, _parent, _attrs) => {
       const _component_RouterLink = resolveComponent("RouterLink");
-      _push(`<div${ssrRenderAttrs(_attrs)} data-v-65b4456c><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-65b4456c>Projects</h1><div class="flex flex-col" data-v-65b4456c><ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-v-65b4456c><!--[-->`);
+      _push(`<div${ssrRenderAttrs(_attrs)} data-v-b7a46522><h1 class="inline-flex mb-8 text-2xl font-bold" data-v-b7a46522>Projects</h1><div class="flex flex-col" data-v-b7a46522><ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-v-b7a46522><!--[-->`);
       ssrRenderList(unref(projects).slice(
         0,
         props.home ? props.projectCount : projectCount.value
       ), (project, index2) => {
-        _push(`<li data-v-65b4456c>`);
+        _push(`<li data-v-b7a46522>`);
         ssrRenderVNode(_push, createVNode(resolveDynamicComponent(project.link ? "a" : "div"), {
           href: project.link,
           target: "_blank",
@@ -1738,9 +1507,9 @@ const _sfc_main$b = defineComponent({
         }, {
           default: withCtx((_2, _push2, _parent2, _scopeId) => {
             if (_push2) {
-              _push2(`<div class="project-image" data-v-65b4456c${_scopeId}><img${ssrRenderAttr("src", `${project.image}`)} data-v-65b4456c${_scopeId}></div><div class="project-heading" data-v-65b4456c${_scopeId}><div class="project-headline" data-v-65b4456c${_scopeId}><span class="project-title" data-v-65b4456c${_scopeId}>${ssrInterpolate(project.title)}</span></div></div>`);
+              _push2(`<div class="project-image" data-v-b7a46522${_scopeId}><img${ssrRenderAttr("src", `${project.image}`)} data-v-b7a46522${_scopeId}></div><div class="project-heading" data-v-b7a46522${_scopeId}><div class="project-headline" data-v-b7a46522${_scopeId}><span class="project-title" data-v-b7a46522${_scopeId}>${ssrInterpolate(project.title)}</span></div></div>`);
               if (project.description) {
-                _push2(`<div class="project-description" data-v-65b4456c${_scopeId}>${ssrInterpolate(project.description)}</div>`);
+                _push2(`<div class="project-description" data-v-b7a46522${_scopeId}>${ssrInterpolate(project.description)}</div>`);
               } else {
                 _push2(`<!---->`);
               }
@@ -1769,7 +1538,7 @@ const _sfc_main$b = defineComponent({
       });
       _push(`<!--]--></ul></div>`);
       if (props.home ? props.projectCount : projectCount.value < unref(projects).length) {
-        _push(`<div class="more-container" data-v-65b4456c>`);
+        _push(`<div class="more-container" data-v-b7a46522>`);
         if (props.home) {
           _push(ssrRenderComponent(_component_RouterLink, {
             to: "/works",
@@ -1787,7 +1556,7 @@ const _sfc_main$b = defineComponent({
             _: 1
           }, _parent));
         } else {
-          _push(`<button class="more-project" data-v-65b4456c> Show more </button>`);
+          _push(`<button class="more-project" data-v-b7a46522> Show more </button>`);
         }
         _push(`</div>`);
       } else {
@@ -1797,14 +1566,14 @@ const _sfc_main$b = defineComponent({
     };
   }
 });
-const _sfc_setup$b = _sfc_main$b.setup;
-_sfc_main$b.setup = (props, ctx) => {
+const _sfc_setup$5 = _sfc_main$5.setup;
+_sfc_main$5.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/Projects.vue");
-  return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
+  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
-var __vite_components_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-65b4456c"]]);
-const _sfc_main$a = defineComponent({
+var __vite_components_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-b7a46522"]]);
+const _sfc_main$4 = defineComponent({
   __name: "works",
   __ssrInlineRender: true,
   setup(__props) {
@@ -1817,139 +1586,19 @@ const _sfc_main$a = defineComponent({
     };
   }
 });
-const _sfc_setup$a = _sfc_main$a.setup;
-_sfc_main$a.setup = (props, ctx) => {
+const _sfc_setup$4 = _sfc_main$4.setup;
+_sfc_main$4.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/works.vue");
-  return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
+  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
 var works = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$a
+  "default": _sfc_main$4
 }, Symbol.toStringTag, { value: "Module" }));
-var block0 = {};
-const _sfc_main$9 = defineComponent({
-  __name: "[...all]",
-  __ssrInlineRender: true,
-  setup(__props) {
-    useHead({
-      title: "404 - Not Found"
-    });
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(_attrs)}> Not Found </div>`);
-    };
-  }
-});
-if (typeof block0 === "function")
-  block0(_sfc_main$9);
-const _sfc_setup$9 = _sfc_main$9.setup;
-_sfc_main$9.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/[...all].vue");
-  return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
-};
-var ____all_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": _sfc_main$9
-}, Symbol.toStringTag, { value: "Module" }));
-const title$6 = "BLAS/LAPACK switching";
-const subsection$4 = "r";
-const order$4 = 3;
-const meta$6 = [{ "property": "og:title", "content": "BLAS/LAPACK switching" }];
-const _sfc_main$8 = {
-  __name: "blas-lapack",
-  __ssrInlineRender: true,
-  setup(__props, { expose: __expose }) {
-    const frontmatter = { "title": "BLAS/LAPACK switching", "subsection": "r", "order": 3, "meta": [{ "property": "og:title", "content": "BLAS/LAPACK switching" }] };
-    __expose({ frontmatter });
-    const head = { "title": "BLAS/LAPACK switching", "meta": [{ "property": "og:title", "content": "BLAS/LAPACK switching" }] };
-    useHead(head);
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))}><h1>BLAS/LAPACK switching</h1><p>Since Fedora 33, R is linked against <a href="https://www.mpi-magdeburg.mpg.de/projects/flexiblas">FlexiBLAS</a>, a BLAS/LAPACK wrapper library that enables runtime switching of the optimized backend.</p><h2>Installation</h2><p>The accompanying <code>R-flexiblas</code> package enables BLAS/LAPACK switching without leaving the R session, as well as setting the number of threads for parallel backends.</p><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> dnf <span class="token function">install</span> R-flexiblas <span class="token comment"># install FlexiBLAS API interface for R</span>
-$ <span class="token function">sudo</span> dnf <span class="token function">install</span> flexiblas-* <span class="token comment"># install all available optimized backends</span>
-</code></pre><h2>Usage</h2><p>Then, in an R session we see:</p><pre class="language-r"><code class="language-r">library<span class="token punctuation">(</span>flexiblas<span class="token punctuation">)</span>
-
-<span class="token comment"># check whether FlexiBLAS is available</span>
-flexiblas_avail<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token comment">#&gt; [1] TRUE</span>
-
-<span class="token comment"># get the current backend</span>
-flexiblas_current_backend<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token comment">#&gt; [1] &quot;OPENBLAS-OPENMP&quot;</span>
-
-<span class="token comment"># list all available backends</span>
-flexiblas_list<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token comment">#&gt; [1] &quot;NETLIB&quot;           &quot;__FALLBACK__&quot;     &quot;BLIS-THREADS&quot;     &quot;OPENBLAS-OPENMP&quot;</span>
-<span class="token comment">#&gt; [5] &quot;BLIS-SERIAL&quot;      &quot;ATLAS&quot;            &quot;OPENBLAS-SERIAL&quot;  &quot;OPENBLAS-THREADS&quot;</span>
-<span class="token comment">#&gt; [9] &quot;BLIS-OPENMP&quot;</span>
-
-<span class="token comment"># set/get the number of threads</span>
-flexiblas_set_num_threads<span class="token punctuation">(</span><span class="token number">12</span><span class="token punctuation">)</span>
-flexiblas_get_num_threads<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token comment">#&gt; [1] 12</span>
-</code></pre><h2>Benchmarking example</h2><p>This is an example of GEMM benchmark for all the backends available. You can run the following code interactively or as a script file.</p><pre class="language-r"><code class="language-r">library<span class="token punctuation">(</span>flexiblas<span class="token punctuation">)</span>
-
-n <span class="token operator">&lt;-</span> <span class="token number">2000</span>
-runs <span class="token operator">&lt;-</span> <span class="token number">10</span>
-ignore <span class="token operator">&lt;-</span> <span class="token string">&quot;__FALLBACK__&quot;</span>
-
-A <span class="token operator">&lt;-</span> matrix<span class="token punctuation">(</span>runif<span class="token punctuation">(</span>n<span class="token operator">*</span>n<span class="token punctuation">)</span><span class="token punctuation">,</span> nrow<span class="token operator">=</span>n<span class="token punctuation">)</span>
-B <span class="token operator">&lt;-</span> matrix<span class="token punctuation">(</span>runif<span class="token punctuation">(</span>n<span class="token operator">*</span>n<span class="token punctuation">)</span><span class="token punctuation">,</span> nrow<span class="token operator">=</span>n<span class="token punctuation">)</span>
-
-<span class="token comment"># load backends</span>
-backends <span class="token operator">&lt;-</span> setdiff<span class="token punctuation">(</span>flexiblas_list<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> ignore<span class="token punctuation">)</span>
-idx <span class="token operator">&lt;-</span> flexiblas_load_backend<span class="token punctuation">(</span>backends<span class="token punctuation">)</span>
-
-<span class="token comment"># benchmark</span>
-timings <span class="token operator">&lt;-</span> sapply<span class="token punctuation">(</span>idx<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  flexiblas_switch<span class="token punctuation">(</span>i<span class="token punctuation">)</span>
-
-  <span class="token comment"># warm-up</span>
-  C <span class="token operator">&lt;-</span> A<span class="token punctuation">[</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">:</span><span class="token number">100</span><span class="token punctuation">]</span> <span class="token percent-operator operator">%*%</span> B<span class="token punctuation">[</span><span class="token number">1</span><span class="token operator">:</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">:</span><span class="token number">100</span><span class="token punctuation">]</span>
-
-  unname<span class="token punctuation">(</span>system.time<span class="token punctuation">(</span><span class="token punctuation">{</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span>j <span class="token keyword">in</span> seq_len<span class="token punctuation">(</span>runs<span class="token punctuation">)</span><span class="token punctuation">)</span>
-      C <span class="token operator">&lt;-</span> A <span class="token percent-operator operator">%*%</span> B
-  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-results <span class="token operator">&lt;-</span> data.frame<span class="token punctuation">(</span>
-  backend <span class="token operator">=</span> backends<span class="token punctuation">,</span>
-  \`timing <span class="token punctuation">[</span>s<span class="token punctuation">]</span>\` <span class="token operator">=</span> timings<span class="token punctuation">,</span>
-  \`performance <span class="token punctuation">[</span>GFlops<span class="token punctuation">]</span>\` <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">*</span> <span class="token punctuation">(</span>n <span class="token operator">/</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token operator">^</span><span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">/</span> timings<span class="token punctuation">,</span>
-  check.names <span class="token operator">=</span> <span class="token boolean">FALSE</span><span class="token punctuation">)</span>
-
-results<span class="token punctuation">[</span>order<span class="token punctuation">(</span>results<span class="token operator">$</span>performance<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token punctuation">]</span>
-<span class="token comment">#&gt;            backend timing [s] performance [GFlops]</span>
-<span class="token comment">#&gt; 1           NETLIB     56.776            0.2818092</span>
-<span class="token comment">#&gt; 5            ATLAS      5.988            2.6720107</span>
-<span class="token comment">#&gt; 2     BLIS-THREADS      3.442            4.6484602</span>
-<span class="token comment">#&gt; 8      BLIS-OPENMP      3.408            4.6948357</span>
-<span class="token comment">#&gt; 4      BLIS-SERIAL      3.395            4.7128130</span>
-<span class="token comment">#&gt; 6  OPENBLAS-SERIAL      3.206            4.9906425</span>
-<span class="token comment">#&gt; 7 OPENBLAS-THREADS      0.773           20.6985770</span>
-<span class="token comment">#&gt; 3  OPENBLAS-OPENMP      0.761           21.0249671</span>
-</code></pre><h2>References</h2><ul><li><a href="https://fedoraproject.org/wiki/Changes/FlexiBLAS_as_BLAS/LAPACK_manager">FlexiBLAS as BLAS/LAPACK manager</a></li><li><a href="https://github.com/Enchufa2/r-flexiblas">Upstream documentation</a></li></ul></div>`);
-    };
-  }
-};
-const _sfc_setup$8 = _sfc_main$8.setup;
-_sfc_main$8.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/blas-lapack.md");
-  return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
-};
-var blasLapack = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  title: title$6,
-  subsection: subsection$4,
-  order: order$4,
-  meta: meta$6,
-  "default": _sfc_main$8
-}, Symbol.toStringTag, { value: "Module" }));
-const title$5 = "Nuxt 3 Awesome Starter";
-const meta$5 = [{ "property": "og:title", "content": "Nuxt 3 Awesome Starter" }];
-const _sfc_main$7 = {
+const title$1 = "Nuxt 3 Awesome Starter";
+const meta$1 = [{ "property": "og:title", "content": "Nuxt 3 Awesome Starter" }];
+const _sfc_main$3 = {
   __name: "docker-event",
   __ssrInlineRender: true,
   setup(__props, { expose: __expose }) {
@@ -2009,21 +1658,21 @@ Example :
     };
   }
 };
-const _sfc_setup$7 = _sfc_main$7.setup;
-_sfc_main$7.setup = (props, ctx) => {
+const _sfc_setup$3 = _sfc_main$3.setup;
+_sfc_main$3.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/docker-event.md");
-  return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
+  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
 var dockerEvent = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$5,
-  meta: meta$5,
-  "default": _sfc_main$7
+  title: title$1,
+  meta: meta$1,
+  "default": _sfc_main$3
 }, Symbol.toStringTag, { value: "Module" }));
-const title$4 = "Hello world - Blog - mfarhan";
-const meta$4 = [{ "property": "og:title", "content": "Hello world - Blog - mfarhan" }];
-const _sfc_main$6 = {
+const title = "Hello world - Blog - mfarhan";
+const meta = [{ "property": "og:title", "content": "Hello world - Blog - mfarhan" }];
+const _sfc_main$2 = {
   __name: "hello-world",
   __ssrInlineRender: true,
   setup(__props, { expose: __expose }) {
@@ -2041,19 +1690,19 @@ const _sfc_main$6 = {
     };
   }
 };
-const _sfc_setup$6 = _sfc_main$6.setup;
-_sfc_main$6.setup = (props, ctx) => {
+const _sfc_setup$2 = _sfc_main$2.setup;
+_sfc_main$2.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/hello-world.md");
-  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
+  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
 var helloWorld = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title: title$4,
-  meta: meta$4,
-  "default": _sfc_main$6
+  title,
+  meta,
+  "default": _sfc_main$2
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$5 = defineComponent({
+const _sfc_main$1 = defineComponent({
   __name: "index",
   __ssrInlineRender: true,
   setup(__props) {
@@ -2061,187 +1710,21 @@ const _sfc_main$5 = defineComponent({
       title: "Blog"
     });
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_Articles = __vite_components_0$6;
+      const _component_Articles = __vite_components_0$4;
       _push(`<!--[--><h1 class="inline-flex mb-8 text-2xl font-bold"> Articles </h1>`);
       _push(ssrRenderComponent(_component_Articles, null, null, _parent));
       _push(`<!--]-->`);
     };
   }
 });
-const _sfc_setup$5 = _sfc_main$5.setup;
-_sfc_main$5.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/index.vue");
-  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
-};
-var index = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": _sfc_main$5
-}, Symbol.toStringTag, { value: "Module" }));
-const title$3 = "R IDE";
-const subsection$3 = "r";
-const order$3 = 4;
-const meta$3 = [{ "property": "og:title", "content": "R IDE" }];
-const _sfc_main$4 = {
-  __name: "r-ide",
-  __ssrInlineRender: true,
-  setup(__props, { expose: __expose }) {
-    const frontmatter = { "title": "R IDE", "subsection": "r", "order": 4, "meta": [{ "property": "og:title", "content": "R IDE" }] };
-    __expose({ frontmatter });
-    const head = { "title": "R IDE", "meta": [{ "property": "og:title", "content": "R IDE" }] };
-    useHead(head);
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))}><h2>Integrated Development Environments for R</h2><h2>RStudio</h2><p><a href="https://rstudio.com/">RStudio</a> is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</p><h3>RStudio Desktop</h3><p>The desktop version can be installed as follows:</p><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> dnf <span class="token function">install</span> rstudio-desktop
-</code></pre><p>Then, RStudio will be available in your <em>Applications</em> menu.</p><h3>RStudio Server</h3><p>Alternatively, a web-based interface to RStudio is available, which is more suitable for Fedora Server or headless installations. To install and run RStudio Server:</p><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> dnf <span class="token function">install</span> rstudio-server
-<span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> <span class="token parameter variable">--now</span> rstudio-server
-</code></pre><p>Then, you can access RStudio in a Web browser at <a href="http://127.0.0.1:8787">http://127.0.0.1:8787</a>. You will see a login page, where you can authenticate using your user/password. Note that RStudio Server binds to all interfaces by default (to 0.0.0.0), and thus it is recommended to block that port in the firewall.</p><h2>Alternatives</h2><p>These alternative IDEs for R are also available in Fedora:</p><ul><li><code>rkward</code>: Graphical front-end for the R language.</li><li><code>emacs-ess</code>: Emacs Speaks Statistics under GNU Emacs.</li></ul></div>`);
-    };
-  }
-};
-const _sfc_setup$4 = _sfc_main$4.setup;
-_sfc_main$4.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/r-ide.md");
-  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
-};
-var rIde = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  title: title$3,
-  subsection: subsection$3,
-  order: order$3,
-  meta: meta$3,
-  "default": _sfc_main$4
-}, Symbol.toStringTag, { value: "Module" }));
-const title$2 = "R";
-const subsection$2 = "r";
-const section = "tech-languages";
-const order$2 = 1;
-const version = "4.0.0";
-const description = "Free software environment for statistical computing and graphics.";
-const meta$2 = [{ "property": "og:title", "content": "R" }, { "property": "og:description", "content": "Free software environment for statistical computing and graphics." }, { "name": "description", "content": "Free software environment for statistical computing and graphics." }];
-const _sfc_main$3 = {
-  __name: "r-installation",
-  __ssrInlineRender: true,
-  setup(__props, { expose: __expose }) {
-    const frontmatter = { "title": "R", "subsection": "r", "section": "tech-languages", "order": 1, "version": "4.0.0", "description": "Free software environment for statistical computing and graphics.", "meta": [{ "property": "og:title", "content": "R" }, { "property": "og:description", "content": "Free software environment for statistical computing and graphics." }, { "name": "description", "content": "Free software environment for statistical computing and graphics." }] };
-    __expose({ frontmatter });
-    const head = { "title": "R", "meta": [{ "property": "og:title", "content": "R" }, { "property": "og:description", "content": "Free software environment for statistical computing and graphics." }, { "name": "description", "content": "Free software environment for statistical computing and graphics." }] };
-    useHead(head);
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))}><h2>R in Fedora</h2><p><a href="https://www.r-project.org/">R</a> provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, and much more through its rich package ecosystem.</p><h2>Installation</h2><p>The newest R release, including recommended packages and development headers and tools, can be installed by running:</p><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> dnf <span class="token function">install</span> R
-</code></pre><p>The following components will be installed by default:</p><table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>R-core</td><td>The minimal R components necessary for a functional runtime</td></tr><tr><td>R-core-devel</td><td>Core files for development of R packages (no Java)</td></tr><tr><td>R-java</td><td>R with Fedora-provided Java Runtime Environment</td></tr><tr><td>R-java-devel</td><td>Development package for use with Java enabled R components</td></tr><tr><td>libRmath</td><td>Standalone math library from the R project</td></tr><tr><td>libRmath-devel</td><td>Headers from the R standalone math library</td></tr></tbody></table><h2>Running R</h2><p>To run R, simply type <code>R</code> in your terminal:</p><pre class="language-bash"><code class="language-bash">$ R
-R version <span class="token number">4.0</span>.4 <span class="token punctuation">(</span><span class="token number">2021</span>-02-15<span class="token punctuation">)</span> -- <span class="token string">&quot;Lost Library Book&quot;</span>
-Copyright <span class="token punctuation">(</span>C<span class="token punctuation">)</span> <span class="token number">2021</span> The R Foundation <span class="token keyword">for</span> Statistical Computing
-Platform: x86_64-redhat-linux-gnu <span class="token punctuation">(</span><span class="token number">64</span>-bit<span class="token punctuation">)</span>
-
-R is <span class="token function">free</span> software and comes with ABSOLUTELY NO WARRANTY.
-You are welcome to redistribute it under certain conditions.
-Type <span class="token string">&#39;license()&#39;</span> or <span class="token string">&#39;licence()&#39;</span> <span class="token keyword">for</span> distribution details.
-
-  Natural language support but running <span class="token keyword">in</span> an English locale
-
-R is a collaborative project with many contributors.
-Type <span class="token string">&#39;contributors()&#39;</span> <span class="token keyword">for</span> <span class="token function">more</span> information and
-<span class="token string">&#39;citation()&#39;</span> on how to cite R or R packages <span class="token keyword">in</span> publications.
-
-Type <span class="token string">&#39;demo()&#39;</span> <span class="token keyword">for</span> some demos, <span class="token string">&#39;help()&#39;</span> <span class="token keyword">for</span> on-line help, or
-<span class="token string">&#39;help.start()&#39;</span> <span class="token keyword">for</span> an HTML browser interface to help.
-Type <span class="token string">&#39;q()&#39;</span> to quit R.
-
-<span class="token operator">&gt;</span>
-</code></pre><p>Now you can start to write in R! Let\u2019s print <em>Hello World</em>!</p><pre class="language-r"><code class="language-r">print<span class="token punctuation">(</span><span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">)</span>
-</code></pre><p>If you want to <strong>exit</strong> R, type <code>quit()</code> or press <code>Ctrl</code> + <code>D</code>, then press <code>n</code> to avoid saving the workspace.</p><p>To run a program written in R, type <code>Rscript</code> followed by the path and name of the program. For example, for a script called <code>example.R</code> in the current path, run the following:</p><pre class="language-bash"><code class="language-bash">$ Rscript example.R
-</code></pre><h2>What next?</h2><ul><li><a href="https://www.r-project.org/">R Project homepage</a></li><li><a href="https://cran.r-project.org/manuals.html">R Manuals</a></li><li><a href="https://r4ds.had.co.nz/">R for Data Science</a>, by Hadley Wickham.</li><li><a href="https://adv-r.hadley.nz/">Advanced R</a>, by Hadley Wickham.</li></ul></div>`);
-    };
-  }
-};
-const _sfc_setup$3 = _sfc_main$3.setup;
-_sfc_main$3.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/r-installation.md");
-  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
-};
-var rInstallation = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  title: title$2,
-  subsection: subsection$2,
-  section,
-  order: order$2,
-  version,
-  description,
-  meta: meta$2,
-  "default": _sfc_main$3
-}, Symbol.toStringTag, { value: "Module" }));
-const title$1 = "R packages";
-const subsection$1 = "r";
-const order$1 = 2;
-const meta$1 = [{ "property": "og:title", "content": "R packages" }];
-const _sfc_main$2 = {
-  __name: "r-packages",
-  __ssrInlineRender: true,
-  setup(__props, { expose: __expose }) {
-    const frontmatter = { "title": "R packages", "subsection": "r", "order": 2, "meta": [{ "property": "og:title", "content": "R packages" }] };
-    __expose({ frontmatter });
-    const head = { "title": "R packages", "meta": [{ "property": "og:title", "content": "R packages" }] };
-    useHead(head);
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))}><h2>Installing packages</h2><p>Recommended R packages are included as part of the R installation. A number of popular add-on packages from <a href="https://cran.r-project.org/">CRAN</a>, <a href="https://bioconductor.org/">Bioconductor</a> and other sources are readily available via the Fedora repositories. They are named with an <code>R-</code> prefix, such as <code>R-ggplot2</code>. To install a package, run:</p><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> dnf <span class="token function">install</span> R-ggplot2
-</code></pre><p>The following command:</p><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> dnf repoquery <span class="token parameter variable">--repo</span><span class="token operator">=</span>fedora-source <span class="token string">&#39;R-*&#39;</span>
-</code></pre><p>provides a list of all R packages in Fedora.</p><h2>Installation from source</h2><p>If you have the <a href="/tech/languages/r/r-installation.html">R package installed</a>, thousands of additional add-on packages can be installed from the official CRAN and Bioconductor repositories. To install e.g. the <code>ggplot2</code> package from source, open the <em>R console</em> and run:</p><pre class="language-r"><code class="language-r">install.packages<span class="token punctuation">(</span><span class="token string">&quot;ggplot2&quot;</span><span class="token punctuation">)</span>
-</code></pre><p>With this method, packages are installed into the user home directory, under <code>~/R</code>.</p><p>See also the <a href="https://remotes.r-lib.org/"><code>remotes</code></a> package, to learn how to install packages from a variety of sources (e.g., GitHub), and the <a href="https://rstudio.github.io/renv/"><code>renv</code></a> package, to learn how to manage environments and to install specific versions of packages.</p><h2>Additional binary packages</h2><p>The <a href="https://copr.fedorainfracloud.org/coprs/iucar/cran/">cran2copr</a> project maintains binary RPM contributed repositories for the current and previous stable Fedora version for most of CRAN (~17k packages as of Apr 2021) in an automated way using <a href="https://copr.fedorainfracloud.org/">Fedora Copr</a>. These repositories are automatically synchronized with CRAN on a daily basis. To ensure compatibility with the official Fedora repository, these set of packages are named with the <code>R-CRAN-</code> prefix (<code>R-CRAN-ggplot2</code> for example), and are installed into <code>/usr/local/lib/R/library</code>.</p><p>To enable this Copr repository in your system:</p><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> dnf <span class="token function">install</span> <span class="token string">&#39;dnf-command(copr)&#39;</span>
-$ <span class="token function">sudo</span> dnf copr <span class="token builtin class-name">enable</span> iucar/cran
-</code></pre><p>For integrating binary package installation into your R session, you can install <code>R-CoprManager</code>:</p><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> dnf <span class="token function">install</span> R-CoprManager
-</code></pre><p>With <code>CoprManager</code>, the Copr <code>iucar/cran</code> repository will be used when installing from the R console:</p><pre class="language-r"><code class="language-r">install.packages<span class="token punctuation">(</span><span class="token string">&quot;car&quot;</span><span class="token punctuation">)</span>
-</code></pre><p>If a package is not available, then it just falls back to source installation from CRAN.</p><p>On the other hand, <code>remove.packages</code> will still remove only packages installed in your user library. If you want to remove system packages, run:</p><pre class="language-r"><code class="language-r">CoprManager<span class="token operator">::</span>remove_copr<span class="token punctuation">(</span><span class="token string">&quot;car&quot;</span><span class="token punctuation">)</span>
-</code></pre><p>If you want to disable the <code>CoprManager</code>, so that <code>install.packages</code> only works from source again, then run:</p><pre class="language-r"><code class="language-r">CoprManager<span class="token operator">::</span>disable<span class="token punctuation">(</span><span class="token punctuation">)</span>
-install.packages<span class="token punctuation">(</span><span class="token string">&quot;car&quot;</span><span class="token punctuation">)</span>
-</code></pre></div>`);
-    };
-  }
-};
-const _sfc_setup$2 = _sfc_main$2.setup;
-_sfc_main$2.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/r-packages.md");
-  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
-};
-var rPackages = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  title: title$1,
-  subsection: subsection$1,
-  order: order$1,
-  meta: meta$1,
-  "default": _sfc_main$2
-}, Symbol.toStringTag, { value: "Module" }));
-const title = "R SIG";
-const subsection = "r";
-const order = 5;
-const meta = [{ "property": "og:title", "content": "R SIG" }];
-const _sfc_main$1 = {
-  __name: "r-sig",
-  __ssrInlineRender: true,
-  setup(__props, { expose: __expose }) {
-    const frontmatter = { "title": "R SIG", "subsection": "r", "order": 5, "meta": [{ "property": "og:title", "content": "R SIG" }] };
-    __expose({ frontmatter });
-    const head = { "title": "R SIG", "meta": [{ "property": "og:title", "content": "R SIG" }] };
-    useHead(head);
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "flex flex-col" }, _attrs))}><h1>R in Fedora Special Interest Group</h1><p>There is a special interest group within the R Project for Fedora Linux. If you are interested in R and Fedora, join us in the <a href="https://stat.ethz.ch/mailman/listinfo/r-sig-fedora">r-sig-fedora</a> mailing list!</p></div>`);
-    };
-  }
-};
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/r-sig.md");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/pages/blog/index.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
-var rSig = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var index = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  title,
-  subsection,
-  order,
-  meta,
   "default": _sfc_main$1
 }, Symbol.toStringTag, { value: "Module" }));
 const _hoisted_1 = {
