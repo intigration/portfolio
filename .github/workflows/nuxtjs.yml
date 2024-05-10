@@ -37,7 +37,6 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "14"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -57,7 +56,7 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} npm install
+        run: ${{ steps.detect-package-manager.outputs.manager }} npm ci
       - name: Static HTML export with Nuxt
         run: ${{ steps.detect-package-manager.outputs.manager }} npm run build
       - name: Upload artifact
