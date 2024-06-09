@@ -2,10 +2,7 @@
 #
 # To get started with Nuxt see: https://nuxtjs.org/docs/get-started/installation
 #
-
 name: Deploy Nuxt site to Pages
-            
-          
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -25,27 +22,26 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-  
 
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-        with:
-          # Automatically inject router.base in your Nuxt configuration file and set
-          # target to static (https://nuxtjs.org/docs/configuration-glossary/configuration-target/).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: nuxt
+      # - name: Setup Node
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     cache: ${{ steps.detect-package-manager.outputs.manager }}
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v3
+      #   with:
+      #     # Automatically inject router.base in your Nuxt configuration file and set
+      #     # target to static (https://nuxtjs.org/docs/configuration-glossary/configuration-target/).
+      #     #
+      #     # You may remove this line if you want to manage the configuration yourself.
+      #     static_site_generator: nuxt
       # - name: Restore cache
       #   uses: actions/cache@v3
       #   with:
@@ -56,25 +52,20 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} npm ci
+        run: npm install
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} npm run build
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
-      - name: Cache
-        uses: actions/cache@v4.0.0
-        with: 
-          path: ./cache
-
 
   # Deployment job
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
